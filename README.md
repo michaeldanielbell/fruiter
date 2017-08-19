@@ -1,8 +1,8 @@
-<center>
+<p align="center">
     <img src="https://www.janeausten.co.uk/wp-content/uploads/2015/06/Rosa_centifolia_foliacea_17.jpg" width="200" />
+</p>
 
-</center>
-# FRINDER (Fruity Tinder)
+## FRINDER (Fruity Tinder)
 
 React / Redux Shopping Cart with a tinder swipe interface and some nice illustrations from Pierre-Joseph Redouté
 
