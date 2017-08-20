@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
-import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-
 import { formatPrice } from '../utils/cart'
-
 import styles from './cartStyles';
-import Total from './total'
+import Total from './total';
+import { values } from 'lodash';
 
 class Cart extends Component {
 
   render() {
-    const cartList = Object.values(this.props.cart).map((product, idx) => {
+    const cartList = values(this.props.cart).map((product, idx) => {
         return <li key={idx}>
             {product.quantity} x {product.item.name}
             <span style={styles.price}>${formatPrice(product.subTotal)}</span>

@@ -1,7 +1,5 @@
 import Backendless from 'backendless';
-import {
-    orderBy,
-} from 'lodash';
+import { orderBy } from 'lodash';
 
 const APP_ID = process.env.REACT_APP_APP_ID;
 const API_KEY = process.env.REACT_APP_API_KEY;

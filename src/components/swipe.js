@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-
 import Cards, { Card } from 'react-swipe-card';
 import styles from './swipeStyles';
-
 import * as productActions from '../actions/products';
 import * as cartActions from '../actions/cart';
 

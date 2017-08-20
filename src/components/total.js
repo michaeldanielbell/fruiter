@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import * as cartActions from '../actions/cart';
-import { formatPrice } from '../utils/cart'
+import { formatPrice } from '../utils/cart';
+import { values } from 'lodash';
 
 class Total extends Component {
     getTotal(){
         let total = 0;
-        Object.values(this.props.cart).forEach((product, idx) => {
+        values(this.props.cart).forEach((product, idx) => {
             total += product.subTotal
         })
         return total;
