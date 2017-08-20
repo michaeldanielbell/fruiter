@@ -2,7 +2,7 @@
     <img src="https://www.janeausten.co.uk/wp-content/uploads/2015/06/Rosa_centifolia_foliacea_17.jpg" width="200" />
 </p>
 
-## FRINDER (Fruity Tinder)
+## Fruiter (Fruit Tinder)
 
 React / Redux Shopping Cart with a tinder swipe interface and some nice illustrations from Pierre-Joseph Redouté (Based off create-react-app)
 
